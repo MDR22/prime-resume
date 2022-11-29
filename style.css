@@ -1,15 +1,33 @@
+* {
+    border: 1px solid black;
+}
+
 img {
     width: 100px;
     height: auto;
     border-radius: 50%;
+    border: 2px solid #b3c1cb;
+    align-self: flex-start;
 }
 
 body {
     border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
     border: 1px solid black;
     padding: 16px;
     margin: 30px;
+}
+
+.header {
+    display: flex;
+    background: #557a95;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
 }
