@@ -24,6 +24,7 @@ body {
     max-width: 800px;
     margin: 30px auto;
     background-color: #c9d0db;
+    border-radius: 10px;
 }
 
 .header {
@@ -49,22 +50,27 @@ body {
     font-size: 18px;
     font-weight: 100;
     color: #e5eaed;
+    margin-bottom: -5px;
+}
+
+.header-text > h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e5eaed;
     margin-bottom: 5px;
 }
 
 .social-icons {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
-#linkedin {
-    width: 30px;
-    height: auto;
-    border: none;
+a {
+    color: white;
 }
 
-#github {
-    width: 60px;
-    height: auto;
-    border: none;
+a:hover {
+    background-color: #476492;
+    color: #c9d0db;
+    border-radius: 5px;
 }
