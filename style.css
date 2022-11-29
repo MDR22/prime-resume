@@ -12,19 +12,19 @@ img {
 }
 
 body {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 .content {
-    border: 1px solid black;
+    border: 3px solid black;
     /* padding: 16px; */
     margin: 30px;
     max-width: 800px;
     margin: 30px auto;
     background-color: #c9d0db;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .header {
@@ -59,7 +59,8 @@ body {
     font-size: 18px;
     font-weight: 500;
     color: #e5eaed;
-    margin-bottom: 5px;
+    margin-left: 0;
+    margin-top: 15px;
 }
 
 .social-icons {
@@ -78,6 +79,10 @@ a:hover {
 }
 
 .experience {
+    border-bottom: 4px solid white;
+}
+
+.experience, .education, .certs-skills {
     padding: 12px;
 }
 
@@ -87,4 +92,39 @@ a:hover {
 
 .experience > h2 {
     margin-bottom: 8px;
+}
+
+.experience > h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.education {
+    border-bottom: 4px solid white;
+}
+
+.education > h2, h3, h4 {
+    margin: 4px;
+}
+
+.education > h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.certs-skills > h2, h3 {
+    margin: 4px;
+}
+
+.certs-skills > h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aicp {
+    margin-bottom: 20px;
 }
