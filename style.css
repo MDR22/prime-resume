@@ -51,3 +51,20 @@ body {
     color: #e5eaed;
     margin-bottom: 5px;
 }
+
+.social-icons {
+    display: flex;
+    gap: 8px;
+}
+
+#linkedin {
+    width: 30px;
+    height: auto;
+    border: none;
+}
+
+#github {
+    width: 60px;
+    height: auto;
+    border: none;
+}
