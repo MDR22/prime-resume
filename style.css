@@ -3,3 +3,13 @@ img {
     height: auto;
     border-radius: 50%;
 }
+
+body {
+    border: 1px solid black;
+}
+
+.content {
+    border: 1px solid black;
+    padding: 16px;
+    margin: 30px;
+}
